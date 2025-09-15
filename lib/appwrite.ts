@@ -55,6 +55,7 @@ export const signIn = async ({ email, password }: SignInParams) => {
 }
 
 export const getCurrentUser = async () => {
+    //getting the account that is logged in
     try {
         const currentAccount = await account.get();
         if(!currentAccount) throw Error;
