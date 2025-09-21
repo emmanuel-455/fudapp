@@ -6,12 +6,12 @@ export const appwriteConfig = {
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.zona.fudapp",
     databaseId: '68c20ab2002fe0d05433',
-    bucketId: '68643e170015edaa95d7',
+    bucketId: '68c899f6002de8012f00',
     userCollectionId: "user",
-    categoriesCollectionId: '68643a390017b239fa0f',
-    menuCollectionId: '68643ad80027ddb96920',
-    customizationsCollectionId: '68643c0300297e5abc95',
-    menuCustomizationsCollectionId: '68643cd8003580ecdd8f'
+    categoriesCollectionId: 'categories',
+    menuCollectionId: 'menu',
+    customizationsCollectionId: 'customizations',
+    menuCustomizationsCollectionId: 'menu_customizations'
 }
 
 export const client = new Client();
